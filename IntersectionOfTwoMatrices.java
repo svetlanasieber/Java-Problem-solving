@@ -3,7 +3,7 @@ package lesson02_multidimensional_arrays.lab;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class N03_IntersectionOfTwoMatrices {
+public class IntersectionOfTwoMatrices {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int rows = Integer.parseInt(scanner.nextLine());

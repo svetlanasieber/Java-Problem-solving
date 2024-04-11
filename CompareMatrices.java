@@ -3,7 +3,7 @@ package lesson02_multidimensional_arrays.lab;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class N01_CompareMatrices {
+public class CompareMatrices {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[][] firstMatrix = readMatrix(scanner);

@@ -20,7 +20,7 @@ public class Contact {
         return this.number;
     }
 
-    public void setNumber(String number) {       //some simple example validations
+    public void setNumber(String number) {     
         if (number.length() < 6) {
             throw new IllegalArgumentException("Number must be at least 6 symbols.");
         } else {

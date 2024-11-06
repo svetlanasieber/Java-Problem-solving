@@ -15,7 +15,7 @@ public class P07_MaxSequenceOfEqualElements {
         int length = 1;
         int maxLength = 0;
         int startIndex = 0;
-        int bestStartIndex = 0; // правя тази променлива, защото трябва да взема от ляво най-дългата поредица
+        int bestStartIndex = 0; 
 
         for (int i = 1; i <= seq.length - 1; i++) {
             if (seq[i] == seq[i - 1]) {

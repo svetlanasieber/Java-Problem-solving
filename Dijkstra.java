@@ -6,7 +6,7 @@ public class Dijkstra {
 
     public static List<Integer> dijkstraAlgorithm(int[][] graph, int sourceNode, int destinationNode) {
 
-        int[] distances = new int[graph.length];
+        int[] distances = new int[graph.length]; 
         int[] prev = new int[graph.length];
 
         boolean[] visited = new boolean[graph.length];
